@@ -77,28 +77,24 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-#aboutmeimg{
-/*    background: url("https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/BigBen.png?raw=true");
-        background-size: cover;
-    background-repeat: no-repeat;
-        width: 100%;
-    height: 600px;*/
-}
-
 #aboutmeimg h3{
     color: yellow;
     font-size: 40px;
 }
 
-/*.aboutMeImg{
-    background: url("https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/me.jpg?raw=true");
-}*/
+#textAboutMe, .eductation-text, .workexperience-text, .contactMe-text{
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 20px;
+}
 
 .education-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    background: #fff;
+    background: #eee;
     margin-bottom: 20px;
 }
 
@@ -112,9 +108,8 @@ of those sections to manage the look and feel of the site. */
 .contact-section {
     height: 100%;
     padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 #footer{
@@ -129,7 +124,7 @@ of those sections to manage the look and feel of the site. */
 .titles{
     padding-bottom: 50px;
 }
-
+/*
 .titles:after {
     content: '';
     width: 100%;
@@ -149,7 +144,7 @@ of those sections to manage the look and feel of the site. */
     top: 0px;
     border-width: 0 0 1px;
     border-style: solid;
-}
+}*/
 
 #edimg{
 
@@ -159,5 +154,8 @@ of those sections to manage the look and feel of the site. */
     .intro-section, .myname {
         height: 350px;
         padding-top: 70px;
+    }
+    .titles{
+            padding-top: 21px;
     }
 }
