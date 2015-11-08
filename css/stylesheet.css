@@ -90,6 +90,10 @@ of those sections to manage the look and feel of the site. */
     font-size: 40px;
 }
 
+/*.aboutMeImg{
+    background: url("https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/me.jpg?raw=true");
+}*/
+
 .education-section {
     height: 100%;
     padding-top: 50px;
