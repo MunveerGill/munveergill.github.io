@@ -1,6 +1,181 @@
-body{
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/*html {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*body {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-size: 18px;*/
+    /*line-height: 1.5;*/
+    /*min-height: 100vh;*/
+
+
+/*}*/
+
+body {
+    background: white;
+    color: #6f6f6e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 100vh;
+    position: relative;
+    max-width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden; }
+
+
+.navbar{
+    background-color: #000000;
+    color: white;
 }
 
-h1{
-	color: blue;
+.navbar-default .navbar-nav > li > a {
+
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: red;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: yellow;
+}
+
+.myname{
+    color: white;
+    padding-top: 278px;
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    /*height: 1371px;*/
+    padding-top: 50px;
+    text-align: center;
+    background: url("/Users/munveergill/Documents/MunveerGillWeb/imgs/coloured-dev.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.about-section {
+    height: 100%;
+    /*background: url(http://localhost:63342/Portfolio/MunveerGillWeb/imgs/BigBen.jpg) no-repeat center center;*/
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+#aboutmeimg{
+    /*height: 698px;*/
+    /*width: 570px;*/
+    /*background: url(http://localhost:63342/Portfolio/MunveerGillWeb/imgs/BigBen.png) no-repeat center center;*/
+}
+
+#aboutmeimg h3{
+    color: yellow;
+    font-size: 40px;
+}
+
+.education-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.workexperience-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+#footer{
+    text-align: center;
+    /*position: fixed;*/
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+
+}
+
+.titles{
+    text-decoration: underline;
+    padding-bottom: 50px;
+
+}
+
+.titles:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 77px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.titles:before {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+#edimg{
+    /*background: url("http://localhost:63342/Portfolio/MunveerGillWeb/imgs/books.jpg");*/
+    /*height: 670px;*/
+}
+
+@media(max-width: 992px){
+    .intro-section, .myname {
+        height: 450px;
+        padding: 50px;
+    }
 }
