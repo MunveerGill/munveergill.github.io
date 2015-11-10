@@ -132,30 +132,19 @@ of those sections to manage the look and feel of the site. */
 .titles{
     padding-bottom: 50px;
 }
-/*
-.titles:after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 77px;
-    border-width: 0 0 1px;
-    border-style: solid;
+
+.sectionIcons {
+
+    font-size: 40px;
+    color: #27BEE8;
 }
 
-.titles:before {
-    content: '';
+.abouteMeRow{
+    padding-bottom: 50px;
+}
 
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    border-width: 0 0 1px;
-    border-style: solid;
-}*/
-
-#edimg{
-
+.aboutMeIcons{
+        font-size: 30px;
 }
 
 @media(max-width: 992px){
