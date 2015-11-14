@@ -147,6 +147,15 @@ of those sections to manage the look and feel of the site. */
         font-size: 30px;
 }
 
+.capita{
+    background: url("https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/capita.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 90px;
+    overflow: hidden;
+}
+
 @media(max-width: 992px){
     .intro-section, .myname {
         height: 350px;
