@@ -90,7 +90,7 @@ of those sections to manage the look and feel of the site. */
     font-size: 40px;
 }
 
-#textAboutMe, .eductation-text, .workexperience-text, .contactMe-text{
+#textAboutMe, .eductation-text, #workexperience-text, .contactMe-text{
     height: 100%;
     padding-top: 50px;
     text-align: center;
@@ -147,13 +147,13 @@ of those sections to manage the look and feel of the site. */
         font-size: 30px;
 }
 
-.capita{
-    background: url("https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/capita.png?raw=true");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 25%;
-    height: 90px;
-    overflow: hidden;
+.workExpImgs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.overlay{
 }
 
 @media(max-width: 992px){
