@@ -98,7 +98,14 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 20px;
 }
 
-.education-section {
+.skills-text{
+    height: 100%;
+    padding-top: 50px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.education-section, .skills-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
@@ -153,7 +160,8 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
-.overlay{
+.positions{
+    padding-top: 10px;
 }
 
 @media(max-width: 992px){
