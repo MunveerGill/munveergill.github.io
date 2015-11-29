@@ -30,6 +30,11 @@ body {
     color: white;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #555;
+    background-color: #27BEE8;
+}
+
 .navbar-default .navbar-brand {
 
     color: white;
@@ -40,7 +45,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-    color: yellow;
+    color: red;
 }
 
 .myname{
@@ -77,25 +82,21 @@ of those sections to manage the look and feel of the site. */
     height: 600px;
 }
 
-.about-section {
-    height: 100%;
-    /*background: url(http://localhost:63342/Portfolio/MunveerGillWeb/imgs/BigBen.jpg) no-repeat center center;*/
-    padding-top: 50px;
-    text-align: center;
-    background: #eee;
-}
-
 #aboutmeimg h3{
     color: yellow;
     font-size: 40px;
 }
 
-#textAboutMe, .eductation-text, #workexperience-text, .contactMe-text{
+#textAboutMe, .eductation-text, #workexperience-text, .contactMe-text, .projects-text{
     height: 100%;
     padding-top: 50px;
     text-align: center;
     background: #fff;
     margin-bottom: 20px;
+}
+
+#aboutMeIconRow{
+    background-color: #e3e3e3;
 }
 
 .skills-text{
@@ -105,26 +106,12 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 20px;
 }
 
-.education-section, .skills-section {
+.headers{
     height: 100%;
     padding-top: 50px;
     text-align: center;
     background: #eee;
-    margin-bottom: 20px;
-}
-
-.workexperience-section {
-    height: 100%;
-    padding-top: 50px;
-    text-align: center;
-    background: #eee;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 50px;
-    text-align: center;
-    background: #eee;
+    /*margin-bottom: 20px;*/
 }
 
 #footer{
@@ -151,7 +138,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .aboutMeIcons{
-        font-size: 30px;
+    font-size: 30px;
+    color: #2e6da4;
 }
 
 .workExpImgs{
@@ -162,6 +150,9 @@ of those sections to manage the look and feel of the site. */
 
 .positions{
     padding-top: 10px;
+}
+.tickBox{
+    color: #2e6da4;
 }
 
 @media(max-width: 992px){

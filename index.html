@@ -21,7 +21,7 @@
     <!-- Custom CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
-        <!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -30,8 +30,11 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <!--FavIcon-->
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERERAAAAAAEAAAEAAAAAAQABEQAAAAABAAAAAAAAAAEAAAAAAAAAAREREQAAAAAAAAAAAAAAAAEAAAEAAAAAAQAAAQAAAAABAAABAAAAAAEAEAEAAAAAAQERAQAAAAABEQERAAAAAAEQABEAAAAAAAAAAAAAD//wAA8B8AAPffAAD3HwAA9/8AAPf/AADwHwAA//8AAPffAAD33wAA998AAPbfAAD0XwAA8R8AAPOfAAD//wAA" rel="icon" type="image/x-icon" />
 
+    <!--Google Analytics-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -60,7 +63,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">MUNVEER GILL</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -80,6 +82,9 @@
                     <li>
                         <a class="page-scroll" href="#workexperience">Work Experience</a>
                     </li>
+                    <!--<li>-->
+                        <!--<a class="page-scroll" href="#projects">Projects</a>-->
+                    <!--</li>-->
                     <li>
                         <a class="page-scroll" href="#contact">Contact me</a>
                     </li>
@@ -102,7 +107,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="headers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -113,38 +118,47 @@
         </div>
     </section>
 
-    <section id="textAboutMe" class="about-section-text">
-                <div class="row abouteMeRow">
-                    <div class="col-lg-3"> 
-                        <i class="fa fa-line-chart aboutMeIcons"></i>
-                        <p>Motivated</p>
-                    </div>
-                    
-                    <div class="col-lg-3"> 
-                         <i class="fa fa-car aboutMeIcons"></i>
-                         <p>Driven</p>
-                    </div>
-                    
-                    <div class="col-lg-3">
-                        <i class="fa fa-pencil aboutMeIcons"></i>
-                        <p>Creative</p>
-                    </div>
+    <section class="headers" id="aboutMeIconRow">
+        <div class="row abouteMeRow">
+            <div class="col-lg-3">
+                <i class="fa fa-fighter-jet aboutMeIcons"></i>
+                <h4>AGILE</h4>
+                <o>Quick on my feet and able to adjust to changes.</o>
+            </div>
 
-                    <div class="col-lg-3">  
-                        <i class="fa fa-trophy aboutMeIcons"></i>
-                        <p>Achiever</p>
-                    </div>
-                </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                
-                                    <p>I am a 20 year old, Product Developer. I have currently embarked on my one year internship at ANDigital. I am a BSc Computer Science with a Year in Industry student at the University of Birmingham. I have a passion for travelling and experimenting with new technologies.  </p>
-                            </div>
-                        </div>
+            <div class="col-lg-3">
+                <i class="fa fa-car aboutMeIcons"></i>
+                <h4>DRIVEN</h4>
+                <p>Always motivated to do better than before.</p>
+            </div>
 
+            <div class="col-lg-3">
+                <i class="fa fa-pencil aboutMeIcons"></i>
+                <h4>CREATIVE</h4>
+                <p>Enjoy transforming my imaginations into reality.</p>
+            </div>
+
+            <div class="col-lg-3">
+                <i class="fa fa-trophy aboutMeIcons"></i>
+                <h4>ACHIEVER</h4>
+                <p>Always wanting to exceed expectations.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="skills" class="skills-section">
+    <section id="textAboutMe" class="about-section-text">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Hello, my name is Munveer Gill. I am a BSc Computer Science student from the University
+                        of Birmingham. I am currently on a year long internship at ANDigital a Digital
+                        Professional Services company based in London. I have a passion for anything Digital
+                        and Creative! Started coding in 2013 and have enjoyed it since! Especially when there
+                        are no bugs!</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="skills" class="headers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -162,46 +176,46 @@
                 <div class="col-md-3">
                     <p>Back-end tech</p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-check-square"></i>Java</li>
-                        <li><i class="fa-li fa fa-check-square"></i>PHP</li>
-                        <li><i class="fa-li fa fa-check-square"></i>PostgreSQL</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Java</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>PHP</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>PostgreSQL</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
 
                     <p>Front-end tech</p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-check-square"></i>HTML/HTML5</li>
-                        <li><i class="fa-li fa fa-check-square"></i>CSS/CSS3</li>
-                        <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
-                        <li><i class="fa-li fa fa-check-square"></i>AngularJs</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Responsive design</li>
-                        <li><i class="fa-li fa fa-check-square"></i>SCSS</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
-                        <li><i class="fa-li fa fa-check-square"></i>JSON</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Word Press</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Google Analytics</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>HTML/HTML5</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>CSS/CSS3</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>JavaScript</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>AngularJs</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>SCSS</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Bootstrap</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>JSON</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Word Press</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
 
                     <p>Design</p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-check-square"></i>UI</li>
-                        <li><i class="fa-li fa fa-check-square"></i>UX</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Adobe Photoshop</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Adobe Illustrator</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>UI</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>UX</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Adobe Photoshop</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Adobe Illustrator</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Responsive design</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
 
-                    <p>Collaboration tools</p>
+                    <p>Other</p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-check-square"></i>Jira</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Trello</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Google Docs</li>
-                        <li><i class="fa-li fa fa-check-square"></i>SVN</li>
-                        <li><i class="fa-li fa fa-check-square"></i>GitHub</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Jira</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Trello</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Google Docs</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>SVN</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>GitHub</li>
+                        <li><i class="fa-li fa fa-check-square tickBox"></i>Google Analytics</li>
                     </ul>
                 </div>
             </div>
@@ -209,7 +223,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="education-section">
+    <section id="services" class="headers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -242,7 +256,7 @@
     </section>
 
     <!-- Work experience Section -->
-    <section id="workexperience" class="workexperience-section">
+    <section id="workexperience" class="headers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -272,8 +286,43 @@
                 </div>
     </section>
 
+
+    <!--################################################ Projects Section ############################################-->
+    <!--&lt;!&ndash; Projects Section &ndash;&gt;-->
+    <!--<section id="projects" class="projects-section">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12">-->
+                    <!--<i class="fa fa-folder fa-2x sectionIcons"></i>-->
+                    <!--<h2 class="titles">PROJECTS</h2>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <!--<section class="container projects-text">-->
+
+        <!--<p>To be added soon...</p>-->
+        <!--<div class="col-md-3 workExpImgs">-->
+            <!--<img src="https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/capita.png?raw=true">-->
+            <!--<p class="positions">Intern 2012</p>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 workExpImgs">-->
+            <!--<img src="https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/vodafone.png?raw=true">-->
+            <!--<p class="positions">Intern 2013</p>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 workExpImgs">-->
+            <!--<img src="https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/hostVentura.png?raw=true">-->
+            <!--<p class="positions">Intern 2013</p>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 workExpImgs">-->
+            <!--<img src="https://github.com/MunveerGill/munveergill.github.io/blob/master/imgs/andigital.png?raw=true">-->
+            <!--<p class="positions">Product Developer Intern 2014 - 2015</p>-->
+        <!--</div>-->
+    <!--</section>-->
+
 	    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="headers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -285,23 +334,33 @@
     </section>
 
     <section class="contactMe-text">
-        
         <div class="row">
             <div class="col-lg-12">
-                    CONTACT ME ON.. <br> EMAIL <br>TWITTER <br>INSTAGRAM<br>LINKEDIN<br>GITHUB
+                <div class="col-lg-3">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:munveer.gill@gmail.com">Email me</a>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-twitter"></i>
+                    <a href="https://twitter.com/munny_gill">TWITTER</a> <br>
+                    <i class="fa fa-instagram"></i>
+                    <a href="https://www.instagram.com/munnygill/" >INSTAGRAM</a>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-github"></i>
+                    <a href="https://github.com/MunveerGill">GitHub</a>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-linkedin-square"></i>
+                    <a href="https://uk.linkedin.com/in/munveer-gill-97aba488">LinkedIn</a>
+                </div>
             </div>
         </div>
-
     </section>
 
     <footer id="footer">
-
         DESIGNED AND DEVELOPED BY MUNVEER GILL
-
     </footer>
-    
-
-
 </body>
 
 </html>
